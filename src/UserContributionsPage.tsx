@@ -24,7 +24,7 @@ const UserContributionsPage = () => {
             {
                pr && pr.items.map(pr => (
                 <li>
-                    <a href={pr.pull_request.url} target="_blank" rel="noreferrer">
+                    <a href={pr.pull_request.html_url} target="_blank" rel="noreferrer">
                         {pr.title}
                     </a>
                 </li>
